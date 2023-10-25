@@ -1,8 +1,8 @@
-﻿using ValdoBase.Domain.DomainObjects.Base;
+﻿using Domain.Base.Entidades;
 
 namespace ValdoBase.Domain.DomainObjects
 {
-    public class Entity : BaseEntityComExclusaoLogica, IEntity
+    public class Entity : EntidadeBaseComExclusaoLogica, IEntity
     {
         protected Entity() : base(Guid.NewGuid(), null, false)
         {
