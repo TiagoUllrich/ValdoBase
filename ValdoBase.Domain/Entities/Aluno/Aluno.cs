@@ -6,6 +6,8 @@ namespace ValdoBase.Domain.Entities.Aluno
     {
         public DateTime DataDeNascimento { get; private set; }
         public string Nome { get; private set; }
+        public string NomeMae { get; private set; }
+        public string NomePai { get; private set; }
 
         public Aluno SetDataDeNascimento(DateTime dataDeNascimento)
         {
@@ -16,6 +18,18 @@ namespace ValdoBase.Domain.Entities.Aluno
         public Aluno SetNome(string nome)
         {
             Nome = nome;
+            return this;
+        }
+
+        public Aluno SetNomeMae(string nomeMae)
+        {
+            NomeMae = nomeMae;
+            return this;
+        }
+
+        public Aluno SetNomePai(string nomePai)
+        {
+            NomePai = nomePai;
             return this;
         }
     }

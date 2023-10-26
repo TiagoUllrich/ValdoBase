@@ -9,6 +9,8 @@ namespace ValdoBase.Database.Configs.Entidades
         {
             builder.Property(x => x.DataDeNascimento).IsRequired();
             builder.Property(x => x.Nome).IsRequired();
+            builder.Property(x => x.NomeMae).IsRequired();
+            builder.Property(x => x.NomePai);
         }
     }
 }
