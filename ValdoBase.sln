@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infraestrutura", "3 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - CrossCutting", "3.1 - CrossCutting", "{FB624E2B-7546-499A-974C-AE5E60CE2B83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValdoBase.IoC", "ValdoBase.IoC\ValdoBase.IoC.csproj", "{FC174076-40B1-4C69-98A3-8F27AA85C93B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{10A2B8D3-1702-4B15-B663-65DA3A9F78DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10A2B8D3-1702-4B15-B663-65DA3A9F78DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10A2B8D3-1702-4B15-B663-65DA3A9F78DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC174076-40B1-4C69-98A3-8F27AA85C93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC174076-40B1-4C69-98A3-8F27AA85C93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC174076-40B1-4C69-98A3-8F27AA85C93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC174076-40B1-4C69-98A3-8F27AA85C93B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{A388C6DD-2535-4911-8CDC-DF3B8413D4F5} = {42B4CBBC-E55D-4C89-95D6-C653ADC5AF23}
 		{10A2B8D3-1702-4B15-B663-65DA3A9F78DA} = {FB624E2B-7546-499A-974C-AE5E60CE2B83}
 		{FB624E2B-7546-499A-974C-AE5E60CE2B83} = {4732139E-C855-4650-816D-BAB92F8CC39C}
+		{FC174076-40B1-4C69-98A3-8F27AA85C93B} = {4732139E-C855-4650-816D-BAB92F8CC39C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DFDD032-E492-4606-A5F8-4FF44464B477}

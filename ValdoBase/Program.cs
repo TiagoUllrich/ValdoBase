@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Localization;
+using System.Globalization;
 using ValdoBase.Database.Repository.Alunos;
+using ValdoBase.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +21,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-//IoC.Start(app);
+IoC.Start(app);
+
+app.UseRequestLocalization(new RequestLocalizationOptions { DefaultRequestCulture = new RequestCulture("pt-BR") });
+CultureInfo.CurrentCulture = new CultureInfo("pt-BR");
 
 app.Run();
